@@ -1,0 +1,134 @@
+/* Important */
+
+body {
+    text-decoration: none;
+    color: black;
+    text-align: justify;
+    background-color: azure;
+}
+
+div {
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin: 7px -8px 0px -8px;    
+}
+
+/* Logo */
+
+.logo img {
+    width: 60px;
+    margin-left: 13px;
+    margin-top: 2px;
+}
+
+/* Navigation */
+
+.navigationbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-style: solid;
+    padding: 4px;
+    border-color: rgb(32,58,148);
+    background-color: rgb(32,58,148);
+    margin: -8px;
+    width: 100.15%;
+}
+  
+.navigation {
+    float: right;
+  }
+  
+.navigation a {
+    display: block;
+    background-color:azure;
+    text-align: center;
+    border-style: solid;
+    padding: 15px 35px;
+    color: black;
+    border-color:rgb(32,58,148);
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 3px 10px;
+}
+.navigation a:active,
+.navigation a:hover {
+    background-color: rgb(32,58,148);
+    border-color: azure;
+    color: azure;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+/* Title */
+
+.title h1 {
+    color: azure;
+    font-size: 120px;
+    float: right;
+    margin: 150px 310px;
+    font-family: monospace;
+    text-align: center;
+    
+}
+
+.title p {
+    color: azure;
+    font-size: 20px;
+    float: right;
+    margin: 350px -1025px 0px 0px;
+    font-family: monospace;
+    text-align: center;
+}
+
+/* Prevention Techniques */
+
+.techniquestitle {
+    float: left;
+    border-style: solid;
+    border-color: rgb(32,58,148);
+    border-radius: 10px;
+    display:block;
+    padding: 10px;
+    margin: 50px 500px 200px 0px;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.techniques img {  
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+
+.vaccination img {
+    border-style: solid;
+    border-radius: 200px;
+    border-color: rgb(32,58,148);
+    border-width: 5px;
+    width: 130px;
+    height: 130px;
+}
+
+.techniquestext {
+    margin-top: -755px;
+    line-height: 40px;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 170px;
+    float: right;
+}
+
+.cleaninglist {
+    line-height: 30px;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin: -235px 150px 0px 0px;
+    float:right
+}

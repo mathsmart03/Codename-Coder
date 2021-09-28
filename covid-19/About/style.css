@@ -1,0 +1,115 @@
+/* Important */
+
+body {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    background-color: azure;
+}
+
+div {
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    background-repeat: no-repeat;
+    margin: 7px -8px 0px -8px;    
+}
+
+/* Logo */
+
+.logo img {
+    width: 60px;
+    margin-left: -675px;
+    margin-top: 2px;
+}
+
+/* Navigation */
+
+.navigationbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-style: solid;
+    padding: 4px;
+    border-color: rgb(73,197,216);
+    background-color: rgb(73,197,216);
+    margin: -8px;
+    width: 100.15%;
+}
+  
+.navigation {
+    float: right;
+  }
+  
+.navigation a {
+    display: block;
+    background-color:azure;
+    text-align: center;
+    border-style: solid;
+    padding: 15px 35px;
+    color: black;
+    border-color: rgb(73,197,216);
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 3px 10px;
+}
+.navigation a:active,
+.navigation a:hover {
+    background-color: rgb(73,197,216);
+    border-color: black;
+    color: black;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+/* Title */
+
+.title h1 {
+    color: rgb(73,197,216);
+    font-size: 150px;
+    float: right;
+    margin: -10px 460px;
+    font-family: monospace;
+    text-align: right;
+}
+
+.title img {
+    height: 75px;
+    width: 75px;
+    margin: 188px 682px 0px 0px;
+    float: right;
+}
+
+/* About Me */
+
+.aboutme {
+    background-image: url(aboutbackground.gif);
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    background-repeat: repeat-y;
+}
+
+.aboutmetitle {
+    border-style: solid;
+    border-color: rgb(73,197,216);
+    border-radius: 10px;
+    display:block;
+    padding: 10px;
+    margin: 50px 300px 200px 0px;
+    font-size: 30px;
+    font-family: monospace;
+    width: 200px;
+}
+
+.aboutmetext {
+    margin-top: -900px;
+    line-height: 40px;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 200px 300px 0px 300px;
+    float: left;
+}
