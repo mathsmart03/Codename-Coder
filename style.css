@@ -1,0 +1,64 @@
+/* Important */
+
+body {
+    text-decoration: none;
+    color: black;
+    text-align: justify;
+    background-color: azure;
+}
+
+div {
+    background-image: url(Logo.png);
+    background-size: auto;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin: 7px -8px 0px -8px;    
+}
+
+/* Logo */
+
+.logo img {
+    width: 60px;
+    margin-left: 13px;
+    margin-top: 2px;
+}
+
+/* Navigation */
+
+.navigationbar {
+    list-style-type: none;
+    overflow: hidden;
+    border-style: solid;
+    border-color: rgb(102, 192, 141);
+    background-color: rgb(102, 192, 141);
+    padding: 4px;
+    margin: -8px;
+    width: 100.15%;
+}
+  
+.navigation {
+    float: right;
+  }
+  
+.navigation a {
+    display: block;
+    background-color:azure;
+    text-align: center;
+    border-style: solid;
+    padding: 15px 35px;
+    color: black;
+    border-color: rgb(102, 192, 141);
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 3px 10px;
+}
+.navigation a:active,
+.navigation a:hover {
+    background-color: rgb(102, 192, 141);
+    border-color: azure;
+    color: azure;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
